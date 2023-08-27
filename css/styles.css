@@ -123,7 +123,7 @@ nav a:hover {
     margin-bottom: 40px;
 }
 
-footer :hover {
+footer {
     background-color: #4c3c32;
     color: white;
     text-align: center;
