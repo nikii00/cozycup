@@ -37,6 +37,7 @@ nav a {
     color: #4c3c32;
     font-weight: bold;
     transition: color 0.3s;
+    text-align: right;
 }
 
 nav a:hover {
