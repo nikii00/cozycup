@@ -130,10 +130,6 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
-footer :hover{
-    font-size: 50px;
-    margin-bottom: 0px
-}
 .hero nav ul{
     list-style: none;
     display: flex;
