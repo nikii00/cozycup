@@ -130,11 +130,12 @@ footer {
     text-align: center;
     padding: 5px 0;
 }
-footer:hover{
+footer a:hover {
     color: #fff;
     font-size: 30px;
     margin-bottom: 0px;
 }
+
 .hero nav ul{
     list-style: none;
     display: flex;
