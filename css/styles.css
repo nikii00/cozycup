@@ -33,8 +33,9 @@ nav ul {
     gap: 20px;
 }
 nav ul :hover{
+    color: #ffff;
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 nav a {
     text-decoration: none;
