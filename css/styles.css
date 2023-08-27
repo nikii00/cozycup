@@ -32,11 +32,7 @@ nav ul {
     display: flex;
     gap: 20px;
 }
-nav ul :hover{
-    color: #ffff;
-    font-size: 30px;
-    margin-bottom: 0px;
-}
+
 nav a {
     text-decoration: none;
     color: #4c3c32;
@@ -44,7 +40,11 @@ nav a {
     transition: color 0.3s;
 }
 
-
+nav a:hover {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
 
 .hero {
     text-align: center;
