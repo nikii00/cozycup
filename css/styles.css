@@ -14,6 +14,7 @@ header {
     background-color: #447596;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 0px 0;
+    text-align: center;
 }
 
 nav {
@@ -37,7 +38,6 @@ nav a {
     color: #4c3c32;
     font-weight: bold;
     transition: color 0.3s;
-    text-align: right;
 }
 
 nav a:hover {
