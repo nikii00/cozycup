@@ -131,7 +131,7 @@ footer {
 }
 footer :hover{
     font-size: 30px;
-    margin-bottom: 30px
+    margin-bottom: 0px
 }
 .hero nav ul{
     list-style: none;
