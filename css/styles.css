@@ -52,21 +52,20 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 150px 0;
-    background-image: url(https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/632313b79f277e001e4f74ce.jpg);
+    background-image: url(https://m.media-amazon.com/images/I/71J5GH0UllL._AC_SX679_.jpg);
     background-size:cover;
-    color: rgb(4, 1, 1);
-    font-weight: bold;
+    color: black;
 }
 
 .hero h1 {
-    font-size: 130px;
+    font-size: 100px;
     margin-bottom: 20px;
     font-family:Haettenschweiler;
 }
 
 
 .hero p {
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 40px;
     font-family: Georgia;
 }
