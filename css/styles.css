@@ -61,6 +61,7 @@ nav a:hover {
     font-size: 100px;
     margin-bottom: 20px;
     font-family:Haettenschweiler;
+    font-weight: bold;
 }
 
 
@@ -68,6 +69,7 @@ nav a:hover {
     font-size: 50px;
     margin-bottom: 40px;
     font-family: Georgia;
+    font-weight: bold;
 }
 
 .cta-button {
