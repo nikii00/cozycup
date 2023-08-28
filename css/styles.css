@@ -145,10 +145,36 @@ footer a:hover {
 }
 
   .container {
-   width: 100%;
-   padding: 40px;
-   background: fixed;
+   width: 20%;
+   padding: 20px;
+   background: gray;
+   margin-left: auto;
+   margin-right: auto;
   }
-  .container .inputBox span{
-    position:relative;
+  .container .inputBox{
+    position: crelative;
+    width: 100%;
+    margin-top: 10px;
+
   }
+  .container .inputBox input,
+  .container .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2 px solid #333;
+    outline: none;
+    resize: none;
+  }
+  .container .inputBox input [type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+  }
+ 
