@@ -68,6 +68,7 @@
             </div>
             <div class="col-md-5">
               <select name="coffee" id="coffee" required>
+                <option value="">--Choose--</option>
                 <option value="110" data-description="A concentrated shot of rich, bold coffee with a velvety crema. Perfect for those who crave a strong and pure coffee experience." selected>Espresso</option>
                 <option value="120" data-description="A harmonious blend of espresso, steamed milk, and a thick layer of frothed milk on top. Delivers a balanced and creamy flavor.">Cappuccino</option>
                 <option value="130" data-description="A smooth and comforting combination of espresso and steamed milk, topped with a thin layer of milk foam. Ideal for a milder coffee taste.">Latte</option>
@@ -89,7 +90,7 @@
             var price = document.getElementById("price");
             var description = document.getElementById("description");
             drop.onchange = function() {
-              price.innerHTML = "$" + drop.value;
+              price.innerHTML = "₱" + drop.value;
               description.innerHTML = drop.options[drop.selectedIndex].getAttribute("data-description");
             };
           </script>
@@ -100,7 +101,7 @@
         <option value="kape2">Great Taste 3n1</option> 
         <option value="kape3">Latte</option> 
         <option value="kape4">Espresso</option>
-    </select> -->
+    </select> --><br><br>
     <!-- <label for="pastry">Pastry Menu</label> 
    <select name="pastry" id="pastry"> class="coffee"
     <option value="">--Choose--</option>
@@ -116,6 +117,7 @@
         </div>
         <div class="col-md-5">
           <select name="pastry" id="pastry" required>
+            <option value="">--Choose--</option>
             <option value="110" data-description="A flaky and buttery French pastry, perfect for breakfast or a light snack." selected>Croissant</option>
             <option value="120" data-description="A sweet and decadent pastry made with layers of buttery dough and rich chocolate filling.">Chocolate Danish</option>
             <option value="130" data-description="A moist muffin bursting with juicy blueberries, a classic choice for a quick treat.">Blueberry Muffin</option>
@@ -137,7 +139,7 @@
         var pastryPrice = document.getElementById("p-price");
         var pastryDescription = document.getElementById("p-description");
         pastryDropdown.onchange = function() {
-          pastryPrice.innerHTML = "$" + pastryDropdown.value;
+          pastryPrice.innerHTML = "₱" + pastryDropdown.value;
           pastryDescription.innerHTML = pastryDropdown.options[pastryDropdown.selectedIndex].getAttribute("data-description");
         };
       </script>
