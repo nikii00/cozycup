@@ -58,7 +58,7 @@ nav a:hover {
 }
 
 .hero h1 {
-    font-size: 100px;
+    font-size: 80px;
     margin-bottom: 20px;
     font-family:Haettenschweiler;
     font-weight: bold;
@@ -66,7 +66,7 @@ nav a:hover {
 
 
 .hero p {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 40px;
     font-family: Georgia;
     font-weight: bold;
