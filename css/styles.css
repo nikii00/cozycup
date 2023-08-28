@@ -6,14 +6,15 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #595267ec;
+    background-color: #6861c4ec;
     color: #4c3c32;
 }
 
 header {
-    background-color: #447596;
+    background-color: #5a94ba;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 0px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -42,7 +43,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #fff;
+    color: #b82b97;
     font-size: 30px;
     margin-bottom: 0px;
 }
@@ -58,14 +59,16 @@ nav a:hover {
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 100px;
     margin-bottom: 20px;
+    font-family:Haettenschweiler;
 }
 
 
 .hero p {
-    font-size: 18px;
+    font-size: 50px;
     margin-bottom: 40px;
+    font-family: Georgia;
 }
 
 .cta-button {
@@ -84,68 +87,85 @@ nav a:hover {
 .menu {
     padding: 100px 0;
     text-align: center;
+    background-color: #e6a2d6ec;
 }
 
 .menu h2 {
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     color: black;
-}
-.menu label{
-    color: black;
+    font-family: Georgia;
 }
 .menu p{
     color: black;
     font: arial;
+    font-weight: bold;
+    font-family: 'Segoe UI';
 }
 
-.pastry{
-    font: bold;
+.menu label{
     color: black;
+    font: arial;
+    font-weight: bold;
+    font-family:sans-serif;
 }
 .about {
     padding: 100px 0;
     text-align: center;
-    background-color: #ede4d6;
+    background-color: #d4b1ed;
 }
 
 .about h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    font-family: Georgia;
+    color: black;
+    font-weight: bold;
 }
 
 .about p {
     font-size: 15px;
     max-width: 800px;
     margin: 0 auto;
+    font-family: Georgia;
+    color: black;
+    font-weight: bold;
 }
 .Staff img {
-    max-width: 100px;}
+    max-width: 150px;}
 
 .contact {
     padding: 100px 0;
     text-align: center;
-    background-color: #4c3c32;
+    background-color: #4dac89;
     color: white;
 }
 
 .contact h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    font-family: Georgia;
+    color: black;
+    font-weight: bold;
 }
 
 .contact p{
     font-size: 15px;
     margin-bottom: 10px;
+    font-family: Georgia;
+    color: black;
 }
 footer {
-    background-color: #4c3c32;
-    color: white;
+    background-color: #482f20;
     text-align: center;
-    padding: 5px 0;
+    padding: 3px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer a{
+    color:#3239b9ec
 }
 footer a:hover {
-    color: #fff;
+    color: #998b8b;
     font-size: 20px;
     margin-bottom: 0px;
 }
@@ -161,7 +181,7 @@ footer a:hover {
   .container {
    width: 20%;
    padding: 20px;
-   background: gray;
+   background: rgb(30, 30, 29);
    margin-left: auto;
    margin-right: auto;
   }
