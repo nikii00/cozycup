@@ -23,15 +23,15 @@
     </header>
 
     <section id="home" class="hero">
-        <div class="logo">
+        <!-- <div class="logo">
             <img src="img/CafeBackground.jpg" alt="CafeBackground Img"> 
-        </div>
+        </div> -->
         <h1>Thanks-a-Latte</h1>
         <p>Sip, Relax, Repeat.</p>
-        <div class="coffeebck">
+        <!-- <div class="coffeebck">
         <img src="img/Coffee.jpg" alt="Coffee Image"> </div> 
         <div class="pastrybck">
-        <img src="img/Pastry.jpg" alt="Pastry Image"> </div> 
+        <img src="img/Pastry.jpg" alt="Pastry Image"> </div>  -->
         <a href="#menu" class="cta-button">Explore Menu</a>
             
 
@@ -58,22 +58,89 @@
 
     <section id="menu" class="menu">
         <h2>Our Menu</h2>
-        <label for="coffee">Coffee Menu</label>   
-    <select name="coffee" id="coffee"> class="coffee"
+        
+        <!-- <label for="coffee">Coffee Menu</label>    -->
+
+        
+        <div class="col-md-7 col-md-offset-1">
+            <div class="col-md-3">
+              <label for="coffee">Coffee Menu</label>
+            </div>
+            <div class="col-md-5">
+              <select name="coffee" id="coffee" required>
+                <option value="110" data-description="A concentrated shot of rich, bold coffee with a velvety crema. Perfect for those who crave a strong and pure coffee experience." selected>Espresso</option>
+                <option value="120" data-description="A harmonious blend of espresso, steamed milk, and a thick layer of frothed milk on top. Delivers a balanced and creamy flavor.">Cappuccino</option>
+                <option value="130" data-description="A smooth and comforting combination of espresso and steamed milk, topped with a thin layer of milk foam. Ideal for a milder coffee taste.">Latte</option>
+                <option value="140" data-description="Espresso combined with chocolate syrup and steamed milk, finished with a dollop of whipped cream. A delightful indulgence with a hint of sweetness.">Mocha</option>
+                <option value="150" data-description="A simple yet satisfying blend of espresso and hot water, resulting in a coffee that's similar in strength to drip coffee but with a more robust flavor.">Americano</option>
+                <option value="160" data-description="Originating from Australia/New Zealand, this coffee features espresso with velvety microfoam, offering a strong coffee flavor with a creamy texture.">Flat White</option>
+                <option value="170" data-description="Macchiato means stained in Italian. Its a shot of espresso stained or marked with a small amount of frothed milk, delivering a bold flavor with a touch of creaminess.">Macchiato</option>
+                <option value="180" data-description="A latte infused with caramel syrup, providing a sweet and buttery twist to the classic latte.">Caramel Latte</option>
+                <option value="190" data-description="Chilled coffee brewed over ice, served with milk and sweetener (optional). A refreshing choice, especially on warmer days.">Iced Coffee</option>
+                <option value="190" data-description="A smooth and strong coffee brewed with cold water over an extended period, served over ice. Offers a bold and less acidic flavor profile.">Cold Brew</option>
+              </select>
+            </div>
+            <p id="description"></p>
+            <p id="price"></p>
+          </div>
+          
+          <script>
+            var drop = document.getElementById("coffee");
+            var price = document.getElementById("price");
+            var description = document.getElementById("description");
+            drop.onchange = function() {
+              price.innerHTML = "$" + drop.value;
+              description.innerHTML = drop.options[drop.selectedIndex].getAttribute("data-description");
+            };
+          </script>
+          
+    <!-- <select name="coffee" id="coffee"> class="coffee"
         <option value="">--Choose--</option>
         <option value="kape">Nescafe 3n1</option> 
         <option value="kape2">Great Taste 3n1</option> 
         <option value="kape3">Latte</option> 
         <option value="kape4">Espresso</option>
-    </select>
-    <label for="pastry">Pastry Menu</label> 
+    </select> -->
+    <!-- <label for="pastry">Pastry Menu</label> 
    <select name="pastry" id="pastry"> class="coffee"
     <option value="">--Choose--</option>
         <option value="bread">Monay</option> 
         <option value="bread">Hopia</option> 
         <option value="bread">Ensaymada</option> 
         <option value="bread">Spanish Bread</option>
-    </select>
+    </select> -->
+
+    <div class="col-md-7 col-md-offset-1">
+        <div class="col-md-3">
+          <label for="pastry">Pastry Menu</label>
+        </div>
+        <div class="col-md-5">
+          <select name="pastry" id="pastry" required>
+            <option value="110" data-description="A flaky and buttery French pastry, perfect for breakfast or a light snack." selected>Croissant</option>
+            <option value="120" data-description="A sweet and decadent pastry made with layers of buttery dough and rich chocolate filling.">Chocolate Danish</option>
+            <option value="130" data-description="A moist muffin bursting with juicy blueberries, a classic choice for a quick treat.">Blueberry Muffin</option>
+            <option value="140" data-description="A soft and gooey roll swirled with cinnamon and topped with creamy icing—a comfort food favorite.">Cinnamon Roll</option>
+            <option value="150" data-description="A croissant filled with almond paste and topped with sliced almonds, offering a delightful nutty flavor.">Almond Croissant</option>
+            <option value="160" data-description="Flaky pastry filled with seasonal fruits, baked to a golden perfection—a balance of sweet and tart.">Fruit Turnover</option>
+            <option value="170" data-description="A French pastry similar to a croissant, but filled with rich chocolate for an indulgent treat.">Pain au Chocolat</option>
+            <option value="180" data-description="A crumbly and slightly sweet pastry studded with fresh raspberries, perfect for pairing with coffee.">Raspberry Scone</option>
+            <option value="190" data-description="Thin layers of pastry enveloping spiced apples, often accompanied by raisins and a dusting of powdered sugar.">Apple Strudel</option>
+            <option value="190" data-description="A tangy and zesty dessert with a buttery crust, featuring a smooth lemon curd filling and a delicate dusting of powdered sugar.">Lemon Tart</option>
+          </select>
+        </div>
+        <p id="p-description"></p>
+        <p id="p-price"></p>
+      </div>
+      
+      <script>
+        var pastryDropdown = document.getElementById("pastry");
+        var pastryPrice = document.getElementById("p-price");
+        var pastryDescription = document.getElementById("p-description");
+        pastryDropdown.onchange = function() {
+          pastryPrice.innerHTML = "$" + pastryDropdown.value;
+          pastryDescription.innerHTML = pastryDropdown.options[pastryDropdown.selectedIndex].getAttribute("data-description");
+        };
+      </script>
 
         <!-- Add menu items here -->
     </section>
@@ -155,7 +222,7 @@
                 
               </div>
               <div class="inputBox">
-                <input type="Submit" name="" value="Send">
+                <input type="submit" name="" value="Send">
               </div>
             </form>
           </div> <br>

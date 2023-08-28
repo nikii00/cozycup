@@ -47,12 +47,14 @@ nav a:hover {
     margin-bottom: 0px;
 }
 
+
 .hero {
     text-align: center;
     padding: 150px 0;
-    background-image: url('Cafe.jpg');
-    background-size: cover;
+    background-image: url(CafeBackground.jpg);
+    background-size:cover;
     color: white;
+
 }
 
 .hero h1 {
@@ -87,8 +89,11 @@ nav a:hover {
 .menu h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    color: black;
 }
-
+.coffee {
+    color: black;
+}
 .about {
     padding: 100px 0;
     text-align: center;
@@ -154,7 +159,7 @@ footer a:hover {
   .container .inputBox{
     position: crelative;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 5px;
 
   }
   .container .inputBox input,
@@ -162,7 +167,7 @@ footer a:hover {
     width: 100%;
     padding: 5px 0;
     font-size: 15px;
-    margin: 10px 0;
+    margin: 5px 0;
     border: none;
     border-bottom: 2 px solid #333;
     outline: none;
@@ -177,4 +182,3 @@ footer a:hover {
     padding: 10px;
     font-size: 15px;
   }
- 
