@@ -43,7 +43,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #b82b97;
+    color: #10040d;
     font-size: 30px;
     margin-bottom: 0px;
 }
@@ -52,9 +52,9 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 150px 0;
-    background-image: url(CafeBackground.jpg);
+    background-image: url(https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/632313b79f277e001e4f74ce.jpg);
     background-size:cover;
-    color: white;
+    color: black;
 
 }
 
@@ -112,7 +112,7 @@ nav a:hover {
 .about {
     padding: 100px 0;
     text-align: center;
-    background-color: #d4b1ed;
+    background-color: rgb(153, 49, 164);
 }
 
 .about h2 {
